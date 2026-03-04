@@ -241,9 +241,10 @@ graph TD;
 4. **Mermaid (por ejemplo Markdown Preview Mermaid Support) (Matt Bierner)**
     * Te permite dibujar diagramas de flujo, secuencias, etc., escribiendo código.
     * objetivo: meter gráficos chulos sin salir del Markdown.
-5. Paste Image
-    * Pegas una imagen (con Ctrl+V) y se guarda sola en tu carpeta.
-    * Para qué: olvidarte de andar copiando archivos y rutas.
+5. Paste Image (por mushan)
+    * Copias una imagen al portapapeles
+    * Pegas la imagen (con Ctrl+V) y se guarda sola en tu carpeta.
+    * Objetivo: olvidarte de andar copiando archivos y rutas.
 
 Que complementos instalar
 

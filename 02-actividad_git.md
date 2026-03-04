@@ -242,27 +242,13 @@ EOF
 * lap top
 * acceso a internet
 
-## Actividad
-
+## Actividad 1
 1. Crear su cuenta en github si aun no lo ha hecho.
-2. Instalar git
-3. Configuarar git con su cuenta de github
+2. Instalar git si no lo ha hecho
+3. Configuarar git con su cuenta de github si no lo ha hecho
 4. Configurar en editor de git a VSCode (previamente debe intalar VSCode si no lo tiene instalado)
-5. Crear un nuevo repositorio llamado 'mirepo1'
-6. Usando echo, ageregue un archivo 'app.c' con una funcion que reciba 2 enteros y devuelva la suma de ambos. 
-7. Haga un snapshot (instantanea o commit) agregando la descripcion "funcion suma".
-8. Agregue al archivo 'app.c' una funcion que reciba 2 enteros y devuelva la resta
-9. Haga un snapshot (instantanea o commit) agregando la siguiente descripcion de 4 lineas:
-    contenido funciones artméticas
-    funciones cargadas
-    suma
-    resta
-10. Muestre todos sus commit
-11. Agregue al archivo 'app.c' una funcion que reciba 2 enteros y devuelva la multiplicación
-12. Haga un snapshot (instantanea o commit) agregando la descrcipción "funciones completas"
-13. Muestre sus commit
 
-# Solución
+### Solución
 
 ```sh
 # 3 configurar su nombre de usuario y mail que tiene en github
@@ -274,3 +260,35 @@ git config --global user.email "miemail@mail"
 git config --global core.editor "code --wait"
 
 ```
+
+## Actividad 2
+
+1. crear una carpeta de trabajo por ejemplo 'c:/trabajo'
+2. dentro de su carpeta crear una nueva carpeta llamada md 'c:/trabajo/md'
+3. abrir git bash en su carpeta 'c:/trabao/md'
+4. con ayuda del profesor ejecute el comando: ```git clone repositorio```
+
+### solución
+
+```sh
+# en su carpeta 'c:/trabaajo/md' de clic derecho y elja 'abrir git bash here'
+# ejecute:
+git clone https://github.com/jflorespampano/actividades-md-2026.git
+```
+
+## Actividad 3
+
+1. Crear un nuevo repositorio llamado 'c:/trabajo/mirepo1'
+2. Usando echo, ageregue un archivo 'app.c' con una funcion que reciba 2 enteros y devuelva la suma de ambos. 
+3. Haga un snapshot (instantanea o commit) agregando la descripcion "funcion suma".
+4. Agregue al archivo 'app.c' una funcion que reciba 2 enteros y devuelva la resta
+5. Haga un snapshot (instantanea o commit) agregando la siguiente descripcion de 4 lineas:
+    contenido funciones artméticas
+    funciones cargadas
+    suma
+    resta
+6. Muestre todos sus commit
+7. Agregue al archivo 'app.c' una funcion que reciba 2 enteros y devuelva la multiplicación
+8. Haga un snapshot (instantanea o commit) agregando la descrcipción "funciones completas"
+9. Muestre sus commit
+
