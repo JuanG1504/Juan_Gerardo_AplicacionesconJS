@@ -263,3 +263,5 @@ Que complementos instalar
 * consola cmd
 
 ## Desarrollo
+
+Escriba una narrativa para un sistema de gestión de datos usando mark down.

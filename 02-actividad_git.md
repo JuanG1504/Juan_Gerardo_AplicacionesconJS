@@ -187,7 +187,6 @@ git log --pretty=format:"%h - %an, %ar : %s"
 #regresar a un commit especifico
 git checkout id-commit
 # regresar al ultimo commit
-git checkout HEAD
 
 git checkout main #volver al estado actual
 # recuperar archivo delutltimo commit
@@ -279,7 +278,7 @@ git clone https://github.com/jflorespampano/actividades-md-2026.git
 ## Actividad 3
 
 1. Crear un nuevo repositorio llamado 'c:/trabajo/mirepo1'
-2. Usando echo, ageregue un archivo 'app.c' con una funcion que reciba 2 enteros y devuelva la suma de ambos. 
+2. Usando echo/cat/redirecciones, ageregue un archivo 'app.c' con una funcion que reciba 2 enteros y devuelva la suma de ambos. 
 3. Haga un snapshot (instantanea o commit) agregando la descripcion "funcion suma".
 4. Agregue al archivo 'app.c' una funcion que reciba 2 enteros y devuelva la resta
 5. Haga un snapshot (instantanea o commit) agregando la siguiente descripcion de 4 lineas:
@@ -291,4 +290,64 @@ git clone https://github.com/jflorespampano/actividades-md-2026.git
 7. Agregue al archivo 'app.c' una funcion que reciba 2 enteros y devuelva la multiplicación
 8. Haga un snapshot (instantanea o commit) agregando la descrcipción "funciones completas"
 9. Muestre sus commit
+10. Muestre su su archivo de funciones en la consola
+11. regrese al primer commit
+12. Muestre su su archivo de funciones en la consola
+13. regrese al HEAD (último commit)
+14. Muestre su su archivo de funciones en la consola
 
+## Solución actividad 3
+
+```sh
+# abra una consola Bash en su carpeta de trabajo
+# dando clic derecho en trabajo, elija open git bash here
+# crear repositorio 'mirepo1'
+mkdir mirepo1
+# cambiarse a el la nueva carpeta
+cd mirepo
+# inicializar git
+git init
+# crear archivo con la funcion ssuma
+cat > app.c << EOF
+int suma(int a, int b){}
+ return a+b;
+}
+EOF
+# hacer commit
+git add .
+git commit -m "funcion suma"
+
+# agregar funcion resta
+cat >> app.c << EOF
+int resta(int a, int b){}
+ return a-b;
+}
+EOF
+
+git status
+
+# hacer commit
+git add .
+git commit -F -<< EOF
+    contenido funciones artméticas
+    funciones cargadas
+    suma
+    resta
+EOF
+
+git status
+
+# mostrar todos los commit
+git log --oneline
+
+# regresar al primer commit
+git checkout id-commit
+# mostrar el archivo app.c
+cat app.c
+
+# regresar al ultimo commit
+git checkout main
+# mostrar el archivo app.c
+cat app.c
+
+```
