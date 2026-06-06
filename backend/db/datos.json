@@ -1,0 +1,143 @@
+{
+  "postres": [
+    {
+      "id": "1",
+      "nombre": "Pastel de chocolate",
+      "categoria": "Pastel",
+      "precio": 280,
+      "tamaño": "Mediano",
+      "disponible": true
+    },
+    {
+      "id": "2",
+      "nombre": "Cheesecake de fresa",
+      "categoria": "Cheesecake",
+      "precio": 320,
+      "tamaño": "Grande",
+      "disponible": true
+    },
+    {
+      "id": "3",
+      "nombre": "Cupcake de vainilla",
+      "categoria": "Cupcake",
+      "precio": 45,
+      "tamaño": "Individual",
+      "disponible": false
+    },
+    {
+      "id": "P8eVRmwNpVs",
+      "nombre": "Flan napolitano",
+      "categoria": "Pastel",
+      "precio": 128,
+      "tamaño": "Individual",
+      "disponible": true
+    }
+  ],
+  "ingredientes": [
+    {
+      "id": "1",
+      "nombre": "Harina",
+      "unidad": "kg",
+      "cantidad": 10,
+      "proveedor": "Dulce Surtido"
+    },
+    {
+      "id": "2",
+      "nombre": "Azúcar",
+      "unidad": "kg",
+      "cantidad": 8,
+      "proveedor": "Dulce Surtido"
+    },
+    {
+      "id": "3",
+      "nombre": "Chocolate",
+      "unidad": "kg",
+      "cantidad": 5,
+      "proveedor": "ChocoMex"
+    },
+    {
+      "nombre": "Leche",
+      "unidad": "L",
+      "cantidad": 15,
+      "proveedor": "Lácteos del Sur",
+      "id": "vysYGrMoLgA"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "María López",
+      "telefono": "9381234567",
+      "correo": "maria@gmail.com",
+      "direccion": "Av. Central #120"
+    },
+    {
+      "id": "2",
+      "nombre": "Carlos Pérez",
+      "telefono": "9387654321",
+      "correo": "carlos@gmail.com",
+      "direccion": "Calle Juárez #45"
+    }
+  ],
+  "proveedores": [
+    {
+      "id": "1",
+      "nombre": "Dulce Surtido",
+      "telefono": "9381112233",
+      "correo": "contacto@dulcesurtido.com",
+      "direccion": "Av. Reforma #120",
+      "contacto": "Laura Méndez",
+      "estado": "Activo"
+    },
+    {
+      "id": "2",
+      "nombre": "ChocoMex",
+      "telefono": "9384445566",
+      "correo": "ventas@chocomex.com",
+      "direccion": "Calle Hidalgo #55",
+      "contacto": "Carlos Ruiz",
+      "estado": "Inactivo"
+    }
+  ],
+  "empleados": [
+    {
+      "id": "1",
+      "nombre": "Ana Torres",
+      "puesto": "Repostera",
+      "telefono": "9382223344",
+      "sexo": "Femenino",
+      "turno": "Matutino"
+    },
+    {
+      "id": "2",
+      "nombre": "Luis Gómez",
+      "puesto": "Vendedor",
+      "telefono": "9385556677",
+      "sexo": "Masculino",
+      "turno": "Vespertino"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "cliente": "María López",
+      "postre": "Pastel de chocolate",
+      "cantidad": 1,
+      "fechaPedido": "2026-06-03",
+      "fechaEntrega": "2026-06-05",
+      "total": 280,
+      "estado": "Pendiente"
+    },
+    {
+      "id": "2",
+      "cliente": "Carlos Pérez",
+      "postre": "Cheesecake de fresa",
+      "cantidad": 2,
+      "fechaPedido": "2026-06-03",
+      "fechaEntrega": "2026-06-07",
+      "total": 640,
+      "estado": "En preparación"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
