@@ -185,7 +185,7 @@ export const Ingredientes = () => {
   return (
     <main className="w3-black w3-text-white w3-padding-32">
 
-      {/* ENCABEZADO PRINCIPAL */}
+      
       <header className="w3-container w3-center w3-padding-32">
         <p className="w3-text-sand w3-wide">
           ✦ CONTROL DE INSUMOS ✦
@@ -200,12 +200,10 @@ export const Ingredientes = () => {
           los postres de Postres Celestiales.
         </p>
 
-        <p className="w3-text-sand w3-xlarge w3-serif">
-          ❦ ─────────────── ❦
-        </p>
+        
       </header>
 
-      {/* FORMULARIO */}
+    
       <section className="w3-container w3-padding-16">
         <div className="w3-card-4 w3-black w3-border w3-border-sand">
 
@@ -334,7 +332,7 @@ export const Ingredientes = () => {
         </div>
       </section>
 
-      {/* MENSAJES */}
+       
       {mensaje && (
         <section className="w3-container w3-padding-16">
           <div className="w3-panel w3-black w3-border w3-border-sand">
@@ -351,7 +349,7 @@ export const Ingredientes = () => {
         </section>
       )}
 
-      {/* TABLA */}
+      
       <section className="w3-container w3-padding-16">
         <div className="w3-card-4 w3-black w3-border w3-border-sand">
 
